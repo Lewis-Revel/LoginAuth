@@ -1,0 +1,15 @@
+{
+  "name": "protek_project",
+  "version": "1.0.0",
+  "description": "Login authorisation",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Lewis",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "users": {
+    "davesmith@hotmail.com": {
+      "email": "davesmith@hotmail.com",
+      "password": "davesmith123",
+      "name": "Dave"
+    },
+    "forj56@gmail.com": {
+      "email": "forj56@gmail.com",
+      "password": "redferrari",
+      "name": "James"
+    },
+    "mpj@gmail.com": {
+      "email": "mpj@gmail.com",
+      "password": "dogdogdog",
+      "name": "Mark"
+    },
+    "sales@protek.com": {
+      "email": "sales@protek.com",
+      "password": "bluewall",
+      "name": "Jane"
+    }
+  }
+}

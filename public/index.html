@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic page metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Protek</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header section (hidden on smaller screens) -->
+    <div class="header">
+        <img src="Protek Logo.png" alt="Protek Logo" class="header-logo">
+    </div>
+    <!-- Login form container -->
+    <div class="login-container">
+        <img src="Protek Logo.png" alt="Protek Logo" class="company-logo">
+        <!-- Login form structure -->
+        <form id="loginForm">
+            <h2>Login</h2>
+            <!-- Email input -->
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="text" id="email" required>
+            </div>
+            <!-- Password input -->
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+            </div>
+            <!-- Submission button -->
+            <button type="submit">Login</button>
+            <!-- Message display area -->
+            <p id="message"></p>
+        </form>
+    </div>
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
